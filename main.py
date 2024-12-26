@@ -1,3 +1,10 @@
 a = float(input("Input a: "))
 b = float(input("Input b: "))
-print(f'Summ a + b = {a+b}')
+s = input('Input "+" or "-": ' )
+
+if s == '-':
+    print(a-b)
+elif s == '+':
+    print(a+b)
+else:
+    print('Invalid type operation!!!')
