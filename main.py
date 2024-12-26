@@ -1,7 +1,5 @@
-import math
-
 a = float(input("Input a: "))
-s = input('Input "+", "-", "*", "/", "^", or "sqrt": ' )
+s = input('Input "+", "-", "*", "/", "^", "sqrt", or "abs": ' )
 
 if s == '-':
     b = float(input("Input b: "))
@@ -23,5 +21,7 @@ elif s == '^':
     print(a**b)
 elif s == 'sqrt':
     print(math.sqrt(a))
+elif s == 'abs':
+    print(abs(a))
 else:
     print('Invalid type operation!!!')
